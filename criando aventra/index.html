@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses, dentro de uma padaria de esquina, eu descobri um ticket misterioso sobre uma fábrica suspeita de chocolate, escondida pelo governo.Nesse ticket, o autor deixa algumas pistas para encontrar essa cidade e eu decidi segui-lás.</p>
+            <button class="btn-proximo" data-proximo="1">Minas Gerais</button>
+            <button class="btn-proximo" data-proximo="2">São Paulo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em Rio de Janeiro, caminhando pelas ruas populosas ao pico do meio dia para encontrar a primeira pista. Você acha uma fábrica suspeita</p>
+            <button class="btn-proximo" data-proximo="3">Invadir o local e investigar</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você começa sua jornada em São Paulo, caminhando pelas ruas vazias ao anoitecer para encontrar a primeira pista. Você acha uma fábrica suspeita.</p>
+            <button class="btn-proximo" data-proximo="5">Invadir o local e investigar</button>
+            <button class="btn-proximo" data-proximo="6">Desistir e voltar pra casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>tu toma um tiro do segurança e é preso por invasão de propriedade privada.</p>
+            <button class="btn-proximo" data-proximo="7">faz o L</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>tu toma um tiro do segurança e é preso por invasão de propriedade privada.</p>
+            <button class="btn-proximo" data-proximo="7">FAZ O L</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
